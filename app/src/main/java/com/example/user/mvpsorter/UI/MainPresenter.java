@@ -5,7 +5,7 @@ import com.example.user.mvpsorter.Network.Networking;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class MainPresenter implements MainPresenterInterface, FinishInterface{
+public class MainPresenter implements FinishInterface{
     private final View view;
     private final ArrayList<String> list;
 
